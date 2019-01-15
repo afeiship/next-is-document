@@ -1,0 +1,28 @@
+{
+  "name": "next-is-document",
+  "version": "0.0.1",
+  "description": "Check if is windowDocument for next",
+  "main": "dist/next-is-document.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-is-document",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
