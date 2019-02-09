@@ -3,7 +3,7 @@
   var nx = global.nx || require('next-js-core2');
 
   nx.isDocument = function(inObj) {
-    return inObj != null && inObj.nodeType == 9;
+    return inObj != null && inObj.nodeType == inObj.DOCUMENT_NODE;
   };
 
   if (typeof module !== 'undefined' && module.exports) {
